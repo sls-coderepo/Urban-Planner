@@ -25,10 +25,15 @@ namespace Planner
         public Building(string address)
         {
             _address = address;
-            _dateConstructed = DateTime.Now;
+            //_dateConstructed = DateTime.Now;
         }
 
         public Building()
+        {
+
+        }
+
+        public void Construct()
         {
             _dateConstructed = DateTime.Now;
         }
